@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Project115v2</string>
 
+    <string name="welcome">AndroidBegin - Android Button Click New Activity Example</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Button">Button</string>
     <string name="name">Name</string>
     <string name="add">Address</string>
     <string name="cont">Contact Number</string>
+
 </resources>

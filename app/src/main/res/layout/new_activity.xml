@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+
+        <ImageView
+            android:id="@+id/sblogo"
+            android:layout_width="390dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/sblogo" />
+
+        <TextView
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Type of Coffee"
+            android:textAllCaps="true"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/frap_button"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/frappe"/>
+
+        <ImageButton
+            android:id="@+id/iced_button"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/iced"/>
+
+        <ImageButton
+            android:id="@+id/hot_button"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/hot"/>   </LinearLayout>
+</ScrollView>
