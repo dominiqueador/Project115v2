@@ -22,9 +22,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_red_light"
-        android:text="Get Started"
+        android:fontFamily="serif"
+        android:text=" Get Started "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:textSize="40sp" />
 
 </android.support.constraint.ConstraintLayout>

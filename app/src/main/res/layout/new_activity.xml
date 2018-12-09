@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     >
 
 
@@ -17,49 +18,52 @@
 
 
         <ImageView
-            android:id="@+id/sblogo"
-            android:layout_width="390dp"
-            android:layout_height="100dp"
-            android:adjustViewBounds="false"
-            android:cropToPadding="false"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/sblogo" />
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:src="@drawable/sblogo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:layout_width="352dp"
+            android:layout_width="360dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
+            android:fontFamily="serif"
             android:gravity="center"
-            android:textSize="25dp"
-            android:textStyle="bold"
             android:text="Type of Coffee"
             android:textAllCaps="true"
-            android:layout_gravity="center"/>
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/frap_button"
             android:layout_width="200dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:textSize="16sp"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/frappe"/>
+            android:background="@drawable/frappe"
+            android:textSize="16sp" />
 
         <ImageButton
             android:id="@+id/iced_button"
             android:layout_width="200dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:textSize="16sp"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/iced"/>
+            android:background="@drawable/iced"
+            android:textSize="16sp" />
 
         <ImageButton
             android:id="@+id/hot_button"
             android:layout_width="200dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:textSize="16sp"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/hot"/>   </LinearLayout>
+            android:background="@drawable/hot"
+            android:textSize="16sp" />
+    </LinearLayout>
 </ScrollView>

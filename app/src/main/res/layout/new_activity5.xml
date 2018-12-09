@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".NewActivity5"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="144dp"
+        android:src="@drawable/sblogo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:layout_width="253dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/bar"
+        app:layout_constraintBottom_toTopOf="@+id/text"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="66dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="384dp"
+        android:layout_height="270dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="serif"
+        android:padding="30dp"
+        android:paddingTop="50dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:textSize="15sp" />
+
+</android.support.constraint.ConstraintLayout>

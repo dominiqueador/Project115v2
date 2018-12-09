@@ -8,4 +8,9 @@
     <string name="add">Address</string>
     <string name="cont">Contact Number</string>
 
+    <string name="sbfrap">Strawberry Frappe</string>
+
+    <string name="dapitan">Starbucks - Dapitan</string>
+    <string name="noval">Starbucks - Padre Noval</string>
+    <string name="espana">Starbucks - Espana Blvd</string>
 </resources>
